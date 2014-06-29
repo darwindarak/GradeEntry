@@ -8,7 +8,7 @@ may contain `First Name`, `Last Name`, and `Student ID` columns,
 as well as a column to record the scores of an assignment.  The
 user can quickly find the row corresponding to a student by
 typing in parts of the the name, the ID, or even typing
-in the student's initials.  
+in the student's initials.
  
 ## Usage
 
@@ -25,8 +25,15 @@ of the page (external JS, CSS, etcs.).  Downloading the libraries
 
 - JQuery
 - Twitter Bootstrap
+- normalize.css
 
 will allow __GradeEntry__ to run completely offline.
+
+## Compatibility
+
+__GradeEntry__ currently works best on Chrome and Firefox. Safari
+has some trouble downloading the saved file and instead displays
+the raw file in a new tab.  It is completely untested on IE.
 
 ## Credit
 
@@ -35,4 +42,7 @@ In addition to the heavy use of [JQuery](https://github.com/jquery/jquery) and
 with
 - [Papa Parse](https://github.com/mholt/jquery.parse) for CSV parsing
 - [FileSaver.js](https://github.com/eligrey/FileSaver.js/) for file saving
-- [Twitter Bootstrap](https://github.com/twbs/bootstrap) for theming
+- [Twitter Bootstrap](https://github.com/twbs/bootstrap) and [normalize.css]
+  (https://github.com/necolas/normalize.css/) for theming
+- [github-fork-ribbon-css](https://github.com/simonwhitaker/github-fork-ribbon-css)
+  for the CSS GitHub fork ribbons.
