@@ -40,6 +40,7 @@ the raw file in a new tab.  It is completely untested on IE.
 In addition to the heavy use of [JQuery](https://github.com/jquery/jquery) and
 [React](https://github.com/facebook/react), __GradeEntry__ is made possible
 with
+- [generatedate](https://github.com/benkeen/generatedata) for the sample data
 - [Papa Parse](https://github.com/mholt/jquery.parse) for CSV parsing
 - [FileSaver.js](https://github.com/eligrey/FileSaver.js/) for file saving
 - [Twitter Bootstrap](https://github.com/twbs/bootstrap) and [normalize.css]
