@@ -1,0 +1,52 @@
+#filter {
+	height:150px;
+	width: 100%;
+	font-size: 40px;
+}
+
+#input_mask {
+	position: relative;
+}
+
+#file_load, #file_save {
+	height: 150px;
+	width: 100%;
+	font-size: 30px;
+}
+
+#csv_source {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+    visibility: hidden;
+}
+
+table {
+	font-size: 20px;
+}
+
+table tr td:last-child {
+	width: 150px;
+}
+
+#data_view { 
+	margin-top:60px; 
+}
+
+td input {
+	padding: 10px;
+	width: 100%;
+	margin-top: -8px;
+	margin-bottom: -8px;
+	border-width: 2px;
+	border: transparent;
+	font-size: 20px;
+	background-color: #FFD;
+}
+
+table:focus{outline:none;}
+table td:focus{background:#FFD; outline:1px solid #08F;}
+table td:active{background:#FFD;}
